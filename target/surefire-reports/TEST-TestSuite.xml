@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="34.826" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Jai\.m2\repository\webdriver\chromedriver\win32\103.0.5060.53\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Job\Testing\Company_Tests\thefork\thechallenge\target\test-classes;D:\Job\Testing\Company_Tests\thefork\thechallenge\target\classes;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-java\4.2.2\selenium-java-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-api\4.2.2\selenium-api-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.2.2\selenium-chrome-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Jai\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Jai\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Jai\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Jai\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Jai\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Jai\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Jai\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Jai\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.2.2\selenium-chromium-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-json\4.2.2\selenium-json-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.2.2\selenium-devtools-v100-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.2.2\selenium-devtools-v101-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.2.2\selenium-devtools-v102-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.2.2\selenium-devtools-v85-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.2.2\selenium-edge-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.2.2\selenium-firefox-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.2.2\selenium-ie-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.2.2\selenium-opera-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.2.2\selenium-remote-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\io\netty\netty-buffer\4.1.77.Final\netty-buffer-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-codec-http\4.1.77.Final\netty-codec-http-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-codec\4.1.77.Final\netty-codec-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-handler\4.1.77.Final\netty-handler-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-common\4.1.77.Final\netty-common-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.77.Final\netty-transport-classes-epoll-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.77.Final\netty-transport-classes-kqueue-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-epoll\4.1.77.Final\netty-transport-native-epoll-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.77.Final\netty-transport-native-kqueue-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.77.Final\netty-transport-native-unix-common-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport\4.1.77.Final\netty-transport-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-resolver\4.1.77.Final\netty-resolver-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-api\1.14.0\opentelemetry-api-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-context\1.14.0\opentelemetry-context-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.14.0\opentelemetry-exporter-logging-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.14.0\opentelemetry-sdk-metrics-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.14.0-alpha\opentelemetry-sdk-logs-1.14.0-alpha.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.14.0\opentelemetry-sdk-common-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.14.0\opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.14.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.14.0\opentelemetry-sdk-trace-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.14.0\opentelemetry-sdk-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.14.0-alpha\opentelemetry-semconv-1.14.0-alpha.jar;C:\Users\Jai\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Jai\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Jai\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Jai\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Jai\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Jai\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Jai\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Jai\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Jai\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-http\4.2.2\selenium-http-4.2.2.jar;C:\Users\Jai\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.2.2\selenium-safari-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-support\4.2.2\selenium-support-4.2.2.jar;C:\Users\Jai\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar;C:\Users\Jai\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Jai\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Jai\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Jai\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Jai\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\Jai\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\Jai\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Jai\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Jai\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Jai\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Jai\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Jai\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Jai\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Jai\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Jai\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Jai\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Jai\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Jai\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Jai\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Jai\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Jai\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Jai\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Jai\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Jai\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Jai\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Jai\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Jai\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Jai\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Jai\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="C:\Users\Jai\AppData\Local\Temp\surefire2610368735614544317\surefirebooter3541837093317956583.jar C:\Users\Jai\AppData\Local\Temp\surefire2610368735614544317 2022-06-30T01-45-51_835-jvmRun1 surefire1984448614867605674tmp surefire_07849725668214292513tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Job\Testing\Company_Tests\thefork\thechallenge\target\test-classes;D:\Job\Testing\Company_Tests\thefork\thechallenge\target\classes;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-java\4.2.2\selenium-java-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-api\4.2.2\selenium-api-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.2.2\selenium-chrome-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Jai\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Jai\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Jai\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Jai\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Jai\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Jai\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Jai\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Jai\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.2.2\selenium-chromium-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-json\4.2.2\selenium-json-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.2.2\selenium-devtools-v100-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.2.2\selenium-devtools-v101-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.2.2\selenium-devtools-v102-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.2.2\selenium-devtools-v85-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.2.2\selenium-edge-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.2.2\selenium-firefox-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.2.2\selenium-ie-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.2.2\selenium-opera-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.2.2\selenium-remote-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\io\netty\netty-buffer\4.1.77.Final\netty-buffer-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-codec-http\4.1.77.Final\netty-codec-http-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-codec\4.1.77.Final\netty-codec-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-handler\4.1.77.Final\netty-handler-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-common\4.1.77.Final\netty-common-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.77.Final\netty-transport-classes-epoll-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.77.Final\netty-transport-classes-kqueue-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-epoll\4.1.77.Final\netty-transport-native-epoll-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.77.Final\netty-transport-native-kqueue-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.77.Final\netty-transport-native-unix-common-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport\4.1.77.Final\netty-transport-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-resolver\4.1.77.Final\netty-resolver-4.1.77.Final.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-api\1.14.0\opentelemetry-api-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-context\1.14.0\opentelemetry-context-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.14.0\opentelemetry-exporter-logging-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.14.0\opentelemetry-sdk-metrics-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.14.0-alpha\opentelemetry-sdk-logs-1.14.0-alpha.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.14.0\opentelemetry-sdk-common-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.14.0\opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.14.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.14.0\opentelemetry-sdk-trace-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.14.0\opentelemetry-sdk-1.14.0.jar;C:\Users\Jai\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.14.0-alpha\opentelemetry-semconv-1.14.0-alpha.jar;C:\Users\Jai\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Jai\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Jai\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Jai\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Jai\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Jai\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Jai\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Jai\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Jai\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Jai\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-http\4.2.2\selenium-http-4.2.2.jar;C:\Users\Jai\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.2.2\selenium-safari-driver-4.2.2.jar;C:\Users\Jai\.m2\repository\org\seleniumhq\selenium\selenium-support\4.2.2\selenium-support-4.2.2.jar;C:\Users\Jai\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar;C:\Users\Jai\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Jai\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Jai\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Jai\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Jai\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\Jai\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\Jai\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Jai\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Jai\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Jai\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Jai\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Jai\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Jai\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Jai\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Jai\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Jai\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Jai\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Jai\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Jai\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Jai\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Jai\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Jai\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Jai\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Jai\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Jai\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Jai\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Jai\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Jai\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Jai\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Jai\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Jai"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Job\Testing\Company_Tests\thefork\thechallenge"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jai\AppData\Local\Temp\surefire2610368735614544317\surefirebooter3541837093317956583.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="Jai"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Jai\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Jai\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="D:\Job\Testing\Company_Tests\thefork\thechallenge"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-11.0.13/bin;C:\Program Files\Java\jdk-11.0.13/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\DSTI\Python ML labs\;C:\Users\Jai\AppData\Local\Microsoft\WindowsApps\python.exe;C:\Users\Jai\Anaconda3\python.exe;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\Jai\AppData\Local\Programs\Python\Python39\Scripts;D:\DSTI\Banking_Project\TFmodels\research\object_detection\packages\tf1;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\Lib\site-packages\;c:\users\jai\anaconda3\lib\site-packages;C:\Users\Jai\AppData\Roaming\Python\Python38\Scripts;C:\Program Files\dotnet\;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PuTTY\;C:\Program Files\Go\bin;C:\minikube;C:\Program Files\MIT\Kerberos\bin;D:\Softwares\Release-22.04.0-0\poppler-22.04.0\Library\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;D:\Softwares\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;D:\Softwares\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="validateMyPersonalInformation" classname="tests.MyPersonalInformation" time="18.769">
+    <system-out><![CDATA[31169 [main] INFO tests.MyPersonalInformation  - First name validated successfully
+31204 [main] INFO tests.MyPersonalInformation  - Last name validated successfully
+31308 [main] INFO tests.MyPersonalInformation  - Country Code validated successfully
+31332 [main] INFO tests.MyPersonalInformation  - Phone number validated successfully
+31359 [main] INFO tests.MyPersonalInformation  - Day from DOB validated successfully
+31521 [main] INFO tests.MyPersonalInformation  - Month from DOB validated successfully
+31553 [main] INFO tests.MyPersonalInformation  - Year from DOB validated successfully
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (tests.MyPersonalInformation).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52821
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 30, 2022 1:45:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jun 30, 2022 1:45:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jun 30, 2022 1:45:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="accessPokemonAPI" classname="tests.Pokemon" time="1.699">
+    <system-out><![CDATA[31557 [main] INFO tests.MyPersonalInformation  - Test Execution Complete
+33624 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://pokeapi.co:443
+33641 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to pokeapi.co:443
+33847 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+33850 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+33850 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+33851 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+33851 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+33851 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /api/v2/pokemon HTTP/1.1
+33851 [main] DEBUG org.apache.http.wire  -  >> "GET /api/v2/pokemon HTTP/1.1[\r][\n]"
+33853 [main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+33853 [main] DEBUG org.apache.http.wire  -  >> "Host: pokeapi.co[\r][\n]"
+33853 [main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+33853 [main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.13)[\r][\n]"
+33854 [main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+33854 [main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+33854 [main] DEBUG org.apache.http.headers  - >> GET /api/v2/pokemon HTTP/1.1
+33854 [main] DEBUG org.apache.http.headers  - >> Accept: */*
+33854 [main] DEBUG org.apache.http.headers  - >> Host: pokeapi.co
+33854 [main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+33854 [main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.13)
+33854 [main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+33874 [main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+33876 [main] DEBUG org.apache.http.wire  -  << "Date: Wed, 29 Jun 2022 23:46:28 GMT[\r][\n]"
+33876 [main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+33876 [main] DEBUG org.apache.http.wire  -  << "Content-Length: 307[\r][\n]"
+33876 [main] DEBUG org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+33876 [main] DEBUG org.apache.http.wire  -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "access-control-allow-origin: *[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "Cache-Control: public, max-age=86400, s-maxage=86400[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "etag: W/"588-qbrj+tbgHm1iYPl6MrxI39gDsdo"[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "function-execution-id: dk43mefn6kwt[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "strict-transport-security: max-age=31556926[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "x-cloud-trace-context: 08fabbe70d0e8c45e78ed7fe90a9e336[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "x-country-code: FR[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "x-orig-accept-language: fr-FR,fr;q=0.9,en;q=0.8[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "x-powered-by: Express[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "x-served-by: cache-cdg20765-CDG[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "x-cache: HIT[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "x-cache-hits: 1[\r][\n]"
+33877 [main] DEBUG org.apache.http.wire  -  << "x-timer: S1655997415.655306,VS0,VE1[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "vary: Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "CF-Cache-Status: HIT[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "Age: 22163[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "Accept-Ranges: bytes[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BY8UpDEASl%2Fbp2KX36qMYeCyVy%2FFxQpUWcVr0XEN93je8srpjAvOPV0uVrXKQNQL2bU74Jnu8seCNoz3F%2BLNK9exUgxOSPVYKQBop47f%2BGDvWgun6iZR3r4W%2Bkbh"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "Server: cloudflare[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "CF-RAY: 72328aaedf74ee54-CDG[\r][\n]"
+33878 [main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+33879 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+33879 [main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+33879 [main] DEBUG org.apache.http.headers  - << Date: Wed, 29 Jun 2022 23:46:28 GMT
+33879 [main] DEBUG org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+33879 [main] DEBUG org.apache.http.headers  - << Content-Length: 307
+33879 [main] DEBUG org.apache.http.headers  - << Connection: keep-alive
+33879 [main] DEBUG org.apache.http.headers  - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+33879 [main] DEBUG org.apache.http.headers  - << access-control-allow-origin: *
+33879 [main] DEBUG org.apache.http.headers  - << Cache-Control: public, max-age=86400, s-maxage=86400
+33880 [main] DEBUG org.apache.http.headers  - << Content-Encoding: gzip
+33880 [main] DEBUG org.apache.http.headers  - << etag: W/"588-qbrj+tbgHm1iYPl6MrxI39gDsdo"
+33880 [main] DEBUG org.apache.http.headers  - << function-execution-id: dk43mefn6kwt
+33880 [main] DEBUG org.apache.http.headers  - << strict-transport-security: max-age=31556926
+33880 [main] DEBUG org.apache.http.headers  - << x-cloud-trace-context: 08fabbe70d0e8c45e78ed7fe90a9e336
+33880 [main] DEBUG org.apache.http.headers  - << x-country-code: FR
+33880 [main] DEBUG org.apache.http.headers  - << x-orig-accept-language: fr-FR,fr;q=0.9,en;q=0.8
+33880 [main] DEBUG org.apache.http.headers  - << x-powered-by: Express
+33880 [main] DEBUG org.apache.http.headers  - << x-served-by: cache-cdg20765-CDG
+33880 [main] DEBUG org.apache.http.headers  - << x-cache: HIT
+33880 [main] DEBUG org.apache.http.headers  - << x-cache-hits: 1
+33880 [main] DEBUG org.apache.http.headers  - << x-timer: S1655997415.655306,VS0,VE1
+33880 [main] DEBUG org.apache.http.headers  - << vary: Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+33880 [main] DEBUG org.apache.http.headers  - << CF-Cache-Status: HIT
+33880 [main] DEBUG org.apache.http.headers  - << Age: 22163
+33880 [main] DEBUG org.apache.http.headers  - << Accept-Ranges: bytes
+33880 [main] DEBUG org.apache.http.headers  - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+33880 [main] DEBUG org.apache.http.headers  - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BY8UpDEASl%2Fbp2KX36qMYeCyVy%2FFxQpUWcVr0XEN93je8srpjAvOPV0uVrXKQNQL2bU74Jnu8seCNoz3F%2BLNK9exUgxOSPVYKQBop47f%2BGDvWgun6iZR3r4W%2Bkbh"}],"group":"cf-nel","max_age":604800}
+33881 [main] DEBUG org.apache.http.headers  - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+33881 [main] DEBUG org.apache.http.headers  - << Server: cloudflare
+33881 [main] DEBUG org.apache.http.headers  - << CF-RAY: 72328aaedf74ee54-CDG
+33890 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+33899 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+33901 [main] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x95][0xd4][0xcf]N[0x84]0[0x10][0x6][0xf0]w[0xe9][0xc1][0x13][0x91][0x5][0xf7][0x8f]Kb|[0x10][0xe3]a[0x80][0xc1]m(mm[0xa7][0xac][0xeb]f[0xdf][0xdd][0xe2][0xc1]d[0xc4][0x83]s[0xa2]4|[0xbf]6[0x93]/\U[0xe7][0x92]%[0xd5]T[0xd5]n["
+33901 [main] DEBUG org.apache.http.wire  -  << "([0x8b][0x1f]y[0xad]ND>6e[0xe9][0xdd][0x88][0xe0][0xf5]}[0xe7][0xca][0xfc]([0xe7][0xfa]{gr[0xf6][0xd9][\r]CDz[0xaa]7wFOzY[0xa8]B[0xf9][0x80][0xb3]v)[0xaa][0xc6]&c[\n]"
+33901 [main] DEBUG org.apache.http.wire  -  << "[0x15]0&C[0xf9][0xf5][0xe5][0xaa],L[0x98][0xe5]6[0x99][0x16]"[0xa4][0x90]?O[0xc1][0xfc][0xe7][0xac][0xb2]*[0xd5][0xad][0xf8][0x11][0xf4]|[0x11][0xe6]k[0x96][0x9f][0xd1]&![0xf0][0xc0][0x80][0xee][0x4]a[0x2][0xdb][0xa3][0x84][0xd8][0xae][0x9]4[0xe8][0xac][0x80][0xd8][0xad][0x8][0xfd][0x9][0xa1][0x17][0x8]{&[0xc4][0xf7][0xa4][0x3][0x19][0x14][0x0][0x7][0x6][0x9c]![0x90][0x13][\n]"
+33902 [main] DEBUG org.apache.http.wire  -  << "[0x8f]Lh[\r]Dr:J[0x84]#[0x1f][0x3][0x10][0x6][0xaf]%@[0xb5]a[0xc2][0x84][0x4][0xde]I[0xc6]X[0xf1]B[0xb6][0x89][0xf2][0x1d][0x86][0x80][0xa2]K[0xf0]R[0x9e][0x11]{[0xd1][0x1c]+[0xde][0xc9][0x11][0xc6]dA[0x92][0xe7][0x85]l[0xf3][0xf9]A[0x1b]#[0x11]x[0x1f][0xbd][0xee][0xdf][0xf0]"[0xc9][0xef][0xd7]yG[0xe4]$[0xc4][0xe1]/B[0x2][0xf0]:[0x6] [0x2][0x12][0x8d][0xf1][0xf8][0x1b][0xd0]K#%?[0xa7][0xa5][0x8d][0xaf][0xb7]/K[0xaf][0xa9][0x8a][0x88][0x5][0x0][0x0]"
+33902 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+33954 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@595ec862
+33954 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+Response Body is =>  {"count":1154,"next":"https://pokeapi.co/api/v2/pokemon?offset=20&limit=20","previous":null,"results":[{"name":"bulbasaur","url":"https://pokeapi.co/api/v2/pokemon/1/"},{"name":"ivysaur","url":"https://pokeapi.co/api/v2/pokemon/2/"},{"name":"venusaur","url":"https://pokeapi.co/api/v2/pokemon/3/"},{"name":"charmander","url":"https://pokeapi.co/api/v2/pokemon/4/"},{"name":"charmeleon","url":"https://pokeapi.co/api/v2/pokemon/5/"},{"name":"charizard","url":"https://pokeapi.co/api/v2/pokemon/6/"},{"name":"squirtle","url":"https://pokeapi.co/api/v2/pokemon/7/"},{"name":"wartortle","url":"https://pokeapi.co/api/v2/pokemon/8/"},{"name":"blastoise","url":"https://pokeapi.co/api/v2/pokemon/9/"},{"name":"caterpie","url":"https://pokeapi.co/api/v2/pokemon/10/"},{"name":"metapod","url":"https://pokeapi.co/api/v2/pokemon/11/"},{"name":"butterfree","url":"https://pokeapi.co/api/v2/pokemon/12/"},{"name":"weedle","url":"https://pokeapi.co/api/v2/pokemon/13/"},{"name":"kakuna","url":"https://pokeapi.co/api/v2/pokemon/14/"},{"name":"beedrill","url":"https://pokeapi.co/api/v2/pokemon/15/"},{"name":"pidgey","url":"https://pokeapi.co/api/v2/pokemon/16/"},{"name":"pidgeotto","url":"https://pokeapi.co/api/v2/pokemon/17/"},{"name":"pidgeot","url":"https://pokeapi.co/api/v2/pokemon/18/"},{"name":"rattata","url":"https://pokeapi.co/api/v2/pokemon/19/"},{"name":"raticate","url":"https://pokeapi.co/api/v2/pokemon/20/"}]}
+class org.json.simple.JSONArray
+33959 [main] INFO tests.Pokemon  - Parsed the String into JSON object
+[{"name":"bulbasaur","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/1\/"},{"name":"ivysaur","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/2\/"},{"name":"venusaur","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/3\/"},{"name":"charmander","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/4\/"},{"name":"charmeleon","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/5\/"},{"name":"charizard","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/6\/"},{"name":"squirtle","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/7\/"},{"name":"wartortle","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/8\/"},{"name":"blastoise","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/9\/"},{"name":"caterpie","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/10\/"},{"name":"metapod","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/11\/"},{"name":"butterfree","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/12\/"},{"name":"weedle","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/13\/"},{"name":"kakuna","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/14\/"},{"name":"beedrill","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/15\/"},{"name":"pidgey","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/16\/"},{"name":"pidgeotto","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/17\/"},{"name":"pidgeot","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/18\/"},{"name":"rattata","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/19\/"},{"name":"raticate","url":"https:\/\/pokeapi.co\/api\/v2\/pokemon\/20\/"}]
+33961 [main] INFO tests.Pokemon  - Extracted the array of JSON object 'results' into string
+https://pokeapi.co/api/v2/pokemon/1/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/1/
+https://pokeapi.co/api/v2/pokemon/2/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/2/
+https://pokeapi.co/api/v2/pokemon/3/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/3/
+https://pokeapi.co/api/v2/pokemon/4/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/4/
+https://pokeapi.co/api/v2/pokemon/5/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/5/
+https://pokeapi.co/api/v2/pokemon/6/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/6/
+https://pokeapi.co/api/v2/pokemon/7/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/7/
+https://pokeapi.co/api/v2/pokemon/8/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/8/
+https://pokeapi.co/api/v2/pokemon/9/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/9/
+https://pokeapi.co/api/v2/pokemon/10/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/10/
+https://pokeapi.co/api/v2/pokemon/11/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/11/
+https://pokeapi.co/api/v2/pokemon/12/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/12/
+https://pokeapi.co/api/v2/pokemon/13/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/13/
+https://pokeapi.co/api/v2/pokemon/14/
+33975 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/14/
+https://pokeapi.co/api/v2/pokemon/15/
+33976 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/15/
+https://pokeapi.co/api/v2/pokemon/16/
+33976 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/16/
+https://pokeapi.co/api/v2/pokemon/17/
+33976 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/17/
+https://pokeapi.co/api/v2/pokemon/18/
+33976 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/18/
+https://pokeapi.co/api/v2/pokemon/19/
+33976 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/19/
+https://pokeapi.co/api/v2/pokemon/20/
+33976 [main] INFO tests.Pokemon  - https://pokeapi.co/api/v2/pokemon/20/
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+{
+	"commonData": {
+		"username": "jioindia1432@gmail.com",
+		"password": "Wisdom1432"
+	},
+	
+	"validateMyPersonalInformation": {
+		"firstname": "Jai",
+		"lastname": "Lakwale",
+		"countrycode": "FR +33",
+		"phonenumber": "758308914",
+		"dayDOB": "19",
+		"monthDOB": "11",
+		"yearDOB": "2001"
+		
+	}
+	
+}

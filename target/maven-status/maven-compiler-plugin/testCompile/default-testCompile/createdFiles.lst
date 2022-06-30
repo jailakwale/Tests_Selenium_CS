@@ -1,0 +1,9 @@
+utility\TestBase.class
+pages\LoginPage.class
+tests\DriverManager.class
+utility\GenericMethods.class
+pages\MyPersonalInformationPage.class
+pages\PokemonPage.class
+tests\Pokemon.class
+pages\Locators.class
+tests\MyPersonalInformation.class
