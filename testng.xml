@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="EnhancedSuite" parallel="tests" thread-count="3">
+  <!-- Listener for custom reporting (example) -->
+  <listeners>
+    <!-- Add your custom listener class if needed -->
+    <!-- <listener class-name="org.uncommons.reportng.HTMLReporter"/> -->
+  </listeners>
+
+  <!-- Smoke Test Group -->
+  <test name="SmokeTests" group-by-instances="true">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <parameter name="env" value="dev"/>
     <classes>
-     <!--  <class name="tests.MyPersonalInformation"/> -->
-      <class name="tests.validateJsplaceholderData"/>
+      <class name="tests.PokemonTest"/>
+      <class name="tests.JsplaceholderTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test>
+
+  <!-- Regression Test Group -->
+  <test name="RegressionTests">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <parameter name="env" value="prod"/>
+    <classes>
+      <class name="tests.MyPersonalInformationTest"/>
+      <class name="tests.DriverManagerTest"/>
+    </classes>
+  </test>
+</suite>
+<!--
+Explanation:
+- parallel="tests" and thread-count="3": Runs test groups in parallel with up to 3 threads.
+- <groups>: Only runs tests annotated with @Test(groups={"smoke"}) or @Test(groups={"regression"}).
+- <parameter>: Passes parameters to test methods (use @Parameters in your test code).
+- <listeners>: Add custom listeners for reporting or hooks.
+- <classes>: Lists all test classes to run in each group.
+You can further customize groups, parameters, and listeners as needed.
+-->

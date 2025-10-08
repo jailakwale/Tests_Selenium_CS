@@ -4,6 +4,7 @@
 package pages;
 
 import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,14 +12,13 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utility.GenericMethods;
 
 /**
  * Description: Contains all the page webelements and methods
  * @author Jai
  *
  */
-public class MyPersonalInformationPage extends GenericMethods {
+public class MyPersonalInformationPage extends BasePage {
 
 	@FindBy(xpath = Locators.MY_PERSONAL_INFO_LINK)
 	public WebElement myPersonalInfoLink;
@@ -47,16 +47,14 @@ public class MyPersonalInformationPage extends GenericMethods {
 	@FindBy(xpath = Locators.DOB_YEAR_INPUT)
 	public WebElement yearDOBinput;
 
-	Select select;
-	
 	
 	/* 
-	 * Decription:Assigning driver and initializing webelements of this page 	
+	 * Description:Assigning driver and initializing webelements of this page 	
 	 * @param driver
 	 *  
 	 */	
 	public MyPersonalInformationPage(WebDriver driver) {
-		this.driver = driver;
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 

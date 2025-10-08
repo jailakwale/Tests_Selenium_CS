@@ -1,0 +1,12 @@
+# Sample YAML configuration for advanced settings
+browser:
+  name: Chrome
+  headless: false
+urls:
+  main: "https://www.thefork.com/"
+  pokemon: "https://pokeapi.co/api/v2/pokemon?limit=30"
+  jsplaceholder: "https://jsonplaceholder.typicode.com/comments"
+wait:
+  min: 4
+  default: 7
+  max: 60

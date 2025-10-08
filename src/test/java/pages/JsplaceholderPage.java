@@ -5,9 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import utility.GenericMethods;
-
-public class JsplaceholderPage extends GenericMethods {
+public class JsplaceholderPage extends BasePage {
 	
 	
 
@@ -20,24 +18,23 @@ public class JsplaceholderPage extends GenericMethods {
 	 *  
 	 */	
 	public JsplaceholderPage(WebDriver driver) {
-		this.driver = driver;
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 
 	
 	/** 
-	 * Description: get the data from the pokemon webelement 	 
+	 * Description: get the data from the jsplaceholder webelement 	 
 	 *   
 	 */	
 	public String getJsplaceholderData() {
 		
 		System.out.println("##############################################");
 		String text = placeholderData.getText();
-		System.out.println(text);		
+		//System.out.println(text);		
 		
 		return text;	
 
 	}
 
 }
-

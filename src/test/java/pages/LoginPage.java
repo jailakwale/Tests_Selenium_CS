@@ -4,13 +4,13 @@
 package pages;
 
 import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utility.GenericMethods;
 
 
 /**
@@ -18,7 +18,7 @@ import utility.GenericMethods;
  * @author Jai
  *
  */
-public class LoginPage extends GenericMethods {
+public class LoginPage extends BasePage {
 
 	@FindBy(xpath = Locators.ACCCEPT_COOKIES)
 	public WebElement acceptCookiesbutton;
@@ -43,7 +43,7 @@ public class LoginPage extends GenericMethods {
 	 *  
 	 */	
 	public LoginPage(WebDriver driver) {
-		this.driver = driver;
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 	

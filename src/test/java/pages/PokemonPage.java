@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utility.GenericMethods;
 
 
 
@@ -15,7 +14,7 @@ import utility.GenericMethods;
  * @author Jai
  *
  */
-public class PokemonPage extends GenericMethods {
+public class PokemonPage extends BasePage {
 	
 	
 	@FindBy(xpath = Locators.POKEMON_URLS)
@@ -27,7 +26,7 @@ public class PokemonPage extends GenericMethods {
 	 *  
 	 */	
 	public PokemonPage(WebDriver driver) {
-		this.driver = driver;
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 
