@@ -32,8 +32,18 @@ public class LoginPage extends BasePage {
 	@FindBy(css = Locators.CONTINUE_BUTTON)
 	public WebElement continueButton;
 
-	@FindBy(css = Locators.PASSWORD_INPUT)
-	public WebElement passwordInput;
+
+	@FindBy(id = Locators.ACCOUNTS_TABLE)
+	public WebElement accountsTable;	
+
+	@FindBy(name = Locators.USERNAME)
+	public WebElement usernameInput;	
+
+	@FindBy(name = Locators.PASSWORD)
+	public WebElement passwordInput;	
+
+	@FindBy(css = Locators.LOGIN_BTN)
+	public WebElement loginBtn;	
 	
 	
 	
@@ -46,6 +56,13 @@ public class LoginPage extends BasePage {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
+
+	public boolean isLoaded()
+	{ 
+		
+		waitImplicitly();
+		return true;
+	}
 	
 	/**
 	 * Assigning driver and initializing webelements of this page 	  
@@ -53,17 +70,14 @@ public class LoginPage extends BasePage {
 	 * @param password
 	 *  
 	 */	
-	public void login(String email, String password) throws InterruptedException {
+	public void login(String username, String password) throws InterruptedException {
 		
 		waitImplicitly();
-		Thread.sleep(15000); // This is written in order to have some time to manually verify the Robot-recaptcha that cannot be verified by automation
-		clickElement(acceptCookiesbutton);
-		clickElement(loginLink);
-		sendKeys(emailAddressInput, email);
-		clickElement(continueButton);
+		sendKeys(usernameInput, username);
 		sendKeys(passwordInput, password);
-		new WebDriverWait(driver, Duration.ofSeconds(6)).until(ExpectedConditions.elementToBeClickable(continueButton));
-		clickElement(continueButton);
+		new WebDriverWait(driver, Duration.ofSeconds(6)).until(ExpectedConditions.elementToBeClickable(loginBtn));
+		clickElement(loginBtn);
+		waitImplicitly();
 
 	}
 	

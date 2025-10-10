@@ -20,8 +20,16 @@ public class Locators {
 	//input[@id='identification_email']
 	public static final String CONTINUE_BUTTON = ".css-4nwwco.e1kntgv41";
 	//span[normalize-space()='Continue']
-	public static final String PASSWORD_INPUT = "#password";
+	
 	//input[@id='password']
+	public static final String ACCOUNTS_TABLE = "#accountTable";
+
+	public static final String USERNAME= "username";
+
+	public static final String PASSWORD = "password";
+
+	public static final String LOGIN_BTN = "input[type='submit']";
+
 	
 	
 	/* MY PERSONAL INFORMATION PAGE WEBELEMENTS */

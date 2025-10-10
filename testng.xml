@@ -16,6 +16,7 @@
     </groups>
     <parameter name="env" value="dev"/>
     <classes>
+      <class name="tests.LoginTest"/>
       <class name="tests.PokemonTest"/>
       <class name="tests.JsplaceholderTest"/>
     </classes>

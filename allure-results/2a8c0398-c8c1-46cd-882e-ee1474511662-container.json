@@ -1,0 +1,1 @@
+{"uuid":"2a8c0398-c8c1-46cd-882e-ee1474511662","name":"tests.LoginTest.launchApp","children":["b163691f-524f-4db0-bb88-314dcbc3dbd7"],"description":"","befores":[{"name":"launchApp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1760090187930,"stop":1760090190931}],"afters":[],"start":1760090187930,"stop":1760090190931}

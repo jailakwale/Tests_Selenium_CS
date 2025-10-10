@@ -9,8 +9,8 @@ utility/TestBase.class
 utility/ExtentManager.class
 utility/YamlConfigReader.class
 tests/PokemonTest.class
+tests/LoginTest.class
 tests/JsplaceholderTest.class
 utility/GenericMethods.class
-tests/MyPersonalInformationTest.class
 pages/LoginPage.class
 pages/Locators.class

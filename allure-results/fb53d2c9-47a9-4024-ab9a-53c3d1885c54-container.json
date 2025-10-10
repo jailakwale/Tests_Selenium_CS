@@ -1,1 +1,0 @@
-{"uuid":"fb53d2c9-47a9-4024-ab9a-53c3d1885c54","name":"tests.PokemonTest.teardown","children":["0f4ae91c-b7d7-4004-bf49-788bc1679c42"],"description":"","befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1759932344175,"stop":1759932344175}],"start":1759932344175,"stop":1759932344175}

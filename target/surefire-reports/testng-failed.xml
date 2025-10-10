@@ -10,13 +10,11 @@
           <include name="validateJsplaceholderData"/>
         </methods>
       </class> <!-- tests.JsplaceholderTest -->
-      <class name="tests.MyPersonalInformationTest">
+      <class name="tests.TestcontainersSeleniumTest">
         <methods>
-          <include name="validateMyPersonalInformation"/>
-          <include name="launchApp"/>
-          <include name="teardown"/>
+          <include name="testWithTestcontainers"/>
         </methods>
-      </class> <!-- tests.MyPersonalInformationTest -->
+      </class> <!-- tests.TestcontainersSeleniumTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
